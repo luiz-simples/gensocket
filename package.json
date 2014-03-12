@@ -1,0 +1,17 @@
+{
+  "name": "GenSocket",
+  "version": "1.0.0",
+  "author": "Luiz Amorim <luiz.simples@gmail.com>",
+
+  "dependencies": {
+    "socket.io": "^0.9.16"
+  },
+
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
