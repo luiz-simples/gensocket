@@ -20,17 +20,6 @@ module.exports = (grunt) ->
         stderr: true
         failOnError: true
 
-    watch:
-      options:
-        interrupt: true
-      all:
-        tasks: 'build'
-        files: [
-          'Gruntfile.coffee'
-          'package.json'
-          'src/{,*/}*.coffee'
-        ]
-
     clean:
       js: [
         'js'
